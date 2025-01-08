@@ -1,22 +1,22 @@
 # BGP_data
--- Analyzing BGP Data Through Big Data Analytics  
---Task: Analyzing BGP Data Through Big Data Analytics
-This structured task is designed to help you explore Border Gateway Protocol (BGP) and its connection to Big Data Analytics. You will follow the lifecycle of data from ingestion to analysis, visualization, and reporting, gaining insights into global internet routing and detecting anomalies.
---Step 1: Understanding BGP and Its Role in Big Data Analytics
+## Analyzing BGP Data Through Big Data Analytics  
+--Task: Analyzing BGP Data Through Big Data Analytics  
+This structured task is designed to help you explore Border Gateway Protocol (BGP) and its connection to Big Data Analytics. You will follow the lifecycle of data from ingestion to analysis, visualization, and reporting, gaining insights into global internet routing and detecting anomalies.  
+--Step 1: Understanding BGP and Its Role in Big Data Analytics  
 What is BGP?
 Border Gateway Protocol (BGP) is a routing protocol that determines how data travels between networks (Autonomous Systems, or AS) on the internet.
-BGP Data Characteristics:
-Volume: Massive routing updates and logs generated globally.
-Variety: Includes attributes like AS paths, prefixes, and routing tables.
-Velocity: Real-time updates occur every second.
-Why BGP Matters for Big Data Analytics:
-Anomaly Detection: Identify routing issues like hijacks or outages.
-Traffic Optimization: Analyze global internet traffic patterns.
-Predictive Analytics: Forecast disruptions or performance issues.
---Task:
-Read an article on BGP basics.
+BGP Data Characteristics:  
+Volume: Massive routing updates and logs generated globally.  
+Variety: Includes attributes like AS paths, prefixes, and routing tables.  
+Velocity: Real-time updates occur every second.  
+Why BGP Matters for Big Data Analytics:  
+Anomaly Detection: Identify routing issues like hijacks or outages.  
+Traffic Optimization: Analyze global internet traffic patterns.  
+Predictive Analytics: Forecast disruptions or performance issues.  
+Task:  
+Read an article on BGP basics.  
 Write a paragraph on how BGP data can be analyzed within Big Data.
---Step 2: Data Ingestion (BGP Data Collection)
+--Step 2: Data Ingestion (BGP Data Collection)  
 Big Data projects begin with collecting raw data from reliable sources. Below are three trusted sources for BGP datasets:
 RIPE NCC (Routing Information Service - RIS):
 Access: Visit RIPE NCC RIS for real-time and historical BGP data.
@@ -32,7 +32,7 @@ Download a dataset from RIPE NCC or RouteViews.
 Use the pybgpstream library in Python to extract:
 Top 5 prefixes with the most changes.
 Frequently withdrawn prefixes.
---Step 3: Data Processing (Preparing BGP Data)
+--Step 3: Data Processing (Preparing BGP Data)  
 Once the data is collected, process it for analysis:
 Install Tools:
 Install Python and libraries like pybgpstream.
@@ -47,7 +47,7 @@ Task:
 Preprocess the dataset and identify:
 Top 5 prefixes with the most changes.
 Frequently withdrawn prefixes.
---Step 4: Data Storage (Big Data Storage)
+--Step 4: Data Storage (Big Data Storage)  
 Store processed data in an efficient format for querying:
 Storage Options:
 Small Datasets: Use SQLite or MySQL.
@@ -57,7 +57,7 @@ Fields to store: Prefixes, AS-PATH, timestamps, announcements/withdrawals.
 Task:
 Store processed BGP data in SQLite or MongoDB.
 Write a query to find the top 5 AS paths used for a specific prefix.
---Step 5: Data Analytics (Analyzing BGP Data)
+--Step 5: Data Analytics (Analyzing BGP Data)  
 Analyze the stored data to uncover trends and anomalies:
 Routing Trends:
 Frequency of route changes.
@@ -70,7 +70,7 @@ Task:
 Analyze stored data to:
 Identify prefixes with the highest updates.
 Find unusually long AS paths.
---Step 6: Data Visualization
+--Step 6: Data Visualization  
 Visualize the data to highlight key trends and anomalies:
 Metrics to Visualize:
 Number of route changes over time.
@@ -85,7 +85,7 @@ Task:
 Create at least two visualizations:
 Line graph for route changes.
 Bar chart for top prefixes.
---Step 7: Summary Report
+--Step 7: Summary Report  
 Compile your findings in a structured report:
 Overview:
 Key takeaways about BGP and its data.
